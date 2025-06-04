@@ -37,20 +37,110 @@ li a:hover{
     background-color: #111;
 }
 
-h1{
+h1{ 
     text-align: center;
-    
+    float: right;
+    color: gold;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
 }
+
 h2{
     text-align: center;
     color: darkgray;
 }
-.capa{
-    text-align: center;
-    border-radius: 220px;
-    width: 200px;
-    height: 200px;
+
+div.apresentation img h2{
+    display: inline-block;
+    position: relative;
 }
+
+div.apresentation img#capa{
+    margin: 3% auto;
+    display: flex;
+    text-align: center;
+    border-radius: 400px;
+    width: 40em;
+    height: 40em;
+}
+
+
+div.info-contact{
+    text-align: center;
+   
+}
+
+div.info-contact img{
+    margin: auto 5em;
+}
+
+div.info-contact img#github{
+    max-width: 8em;
+    max-height: 8em;
+   
+}
+
+div.info-contact img#instagram{
+    max-width: 8em;
+    max-height: 8em;
+}
+
+div.info-contact img#gmail{
+    max-width: 8em;
+    max-height: 8em;
+}
+
+div.info-contact img#whatsapp{
+    max-width: 8em;
+    max-height: 8em;
+}
+
+div.languages{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.languages img{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+}
+
+.language-english td{
+    margin: auto 2em;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.language-english th{
+    margin: auto 2em;
+    text-align: center;
+    color: darkgray;
+}
+
+.language-spanish th{
+    margin: auto 2em;
+    text-align: center;
+    color: darkgray;
+}
+.language-spanish td{
+    margin: auto;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.espanhol, .ingles{
+    margin: auto 5em;
+    display: flex;
+    text-align: center;
+    border: #333 1px solid;
+}
+
 
 footer{
     text-align: center;
