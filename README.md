@@ -1,22 +1,25 @@
-# Curriculum
-# Caio César Oliveira Silva
-```# ✍️ Instruções para a atividade
+# ✍️ Instruções para a atividade
 
 Você irá criar um site, sobre o tema que você quiser, utilizando os elementos HTML demonstrados nos conteúdos anteriores. O conteúdo pode ser fictício, use a sua criatividade. 
 
+<aside>
 🧐 **OBSERVAÇÕES
 -** Esteja atento a estrutura necessária para as suas páginas HTML.
 - Fique atento aos critérios mínimos.
 - Você **PODE** colocar mais coisas! Mas isso não irá alterar a sua nota.
 - As informações **PODEM** ser fictícias.
 
+</aside>
 
 1. Crie um novo repositório público no GitHub
     - Coloque seu nome completo no arquivo README.md juntamente com a descrição da atividade.
 2. O seu projeto deve conter pelo menos 3 páginas `.html`
     1. A página principal deve ser a  `index.html`, as outras, você mesmo pode definir os nomes dos arquivos.
         
+        <aside>
         ⚠️ Ao dar nome aos arquivos `.html`, não use espaços ou acentuações!
+        
+        </aside>
         
     2. Todas as páginas devem possuir um "menu" para navegação com **TODAS** as páginas do site.
         - Padronize o menu para todas as páginas.
@@ -32,4 +35,11 @@ Você irá criar um site, sobre o tema que você quiser, utilizando os elementos
     5. Vídeo do YouTube.
         - Utilize a ferramenta de importação do próprio YouTube.
     6. Link para outros sites da internet
-4. Faça o ***Deploy*** do seu projeto```
+4. Faça o ***Deploy*** do seu projeto
+
+### 🏁 Entregando a atividade
+
+Responda a atividade **#04 no Classroom** com:
+
+- O link para o repositório.
+- O link com o endereço do seu projeto publicado na internet.
