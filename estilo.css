@@ -34,7 +34,7 @@ li a{
 
 li a:hover{
     color: white;
-    background-color: #111;
+    background-color: #383737;
 }
 
 h1{ 
@@ -42,9 +42,9 @@ h1{
     float: right;
     color: gold;
     font-family: "Fascinate", system-ui;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 h2{
@@ -52,64 +52,81 @@ h2{
     color: darkgray;
 }
 
-div.apresentation img h2{
+div.apresentation{
     display: inline-block;
     position: relative;
 }
 
-div.apresentation img#capa{
-    margin: 3% auto;
+.apresentation {
     display: flex;
-    text-align: center;
-    border: white solid;
-    border-radius: 400px;
-    width: 40em;
-    height: 40em;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    margin: 10px auto;
+}
+
+.apresentation img#capa {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+#apresentation-text {
+    max-height: 4em;
+    max-width: 65%;
+    color: darkgray;
+}
+
+#apresentation-text p {
+    color: gold;
+    font-family: "Fascinate", system-ui;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    text-align: right;
 }
 
 
-div.info-contact{
+.info-contact{
     text-align: center;
    
 }
 
-div.info-contact img{
+.info-contact img{
     margin: auto 5em;
+     max-width: 8%;
+    max-height: 8%;
 }
 
-div.info-contact img#github{
-    max-width: 8em;
-    max-height: 8em;
-   
+.tecnologies {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
 }
 
-div.info-contact img#instagram{
-    max-width: 8em;
-    max-height: 8em;
+.tecnologies figure {
+    margin-right: 5px; 
 }
 
-div.info-contact img#gmail{
-    max-width: 8em;
-    max-height: 8em;
+.tecnologies figure img {
+    width: 5em;
+    height: 5em;
 }
 
-div.info-contact img#whatsapp{
-    max-width: 8em;
-    max-height: 8em;
-}
-
-div.languages{
+.languages{
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-div.languages img{
+.languages img{
     display: flex;
     text-align: center;
     margin: auto;
-    width: 5em;
-    height: 5em;
+    width: 7em;
+    height: 7em;
 }
 
 .language-english td{
@@ -142,6 +159,25 @@ div.languages img{
     border: #333 1px solid;
 }
 
+.apresentation-scholarship{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentation-scholarship #school, #college{
+    border: #625f5f 1px solid;
+    margin: auto 2em;
+    text-align: center;
+}
+
+.abilities li{
+    margin: auto 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+}
 
 .works{
     text-align: center;
