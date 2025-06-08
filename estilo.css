@@ -215,6 +215,10 @@ h2{
     font-size: 2em;
 }
 
+.youtuber iframe{
+    border: none;
+}
+
 footer{
     text-align: center;
 }
